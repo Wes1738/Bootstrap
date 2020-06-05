@@ -54,8 +54,7 @@ header, .navbar {
 
 #mainSlider .carousel-inner, #mainSlider .carousel-item {
     height: 90vh;
-    transition: 2s;
-    
+    transition: 1.5s;
 }
 #mainSlider .carousel-caption {
     top: 30%;
@@ -93,5 +92,48 @@ header, .navbar {
 
 .carousel-indicators .active {
     background-color: #65DAF9;
-    transition: 2s;
+    transition: 1.5s;
+}
+
+/* Sobre a empresa */
+
+#about-area {
+    background-color: #f9f9f9;
+}
+
+.main-title {
+    color: #444444;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-title::after {
+    content: "";
+    border-top: 2px solid #333;
+    position: absolute;
+    top: 60px;
+    width: 15%;
+    left: 42.5%;
+}
+
+.about-title {
+    font-size: 17px;
+    color: #444444;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li {
+    line-height: 30px;
+}
+
+#about-list i {
+    color: #65DAF9;
+    margin-right: 15px;
 }
