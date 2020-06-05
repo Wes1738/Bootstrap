@@ -54,6 +54,8 @@ header, .navbar {
 
 #mainSlider .carousel-inner, #mainSlider .carousel-item {
     height: 90vh;
+    transition: 2s;
+    
 }
 #mainSlider .carousel-caption {
     top: 30%;
@@ -90,5 +92,6 @@ header, .navbar {
 }
 
 .carousel-indicators .active {
-    border-color: #65DAF9;
+    background-color: #65DAF9;
+    transition: 2s;
 }
