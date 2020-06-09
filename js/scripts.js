@@ -110,7 +110,7 @@ $(document).ready(function() {
     $('#data-area').parallax({imageSrc: 'img/cidadeParallax.png'});
     $('#apply-area').parallax({imageSrc: 'img/pattern.png'});
     
-  }, 250);
+  }, 200);
    
   // Filtro portfólio
 
